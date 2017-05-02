@@ -1,0 +1,11 @@
+{% set sf = 'asf' %}
+{% extends 'layouts/base-layout.twig' %}
+
+{% block title %}Page1{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>Page1</h1>
+        {% include 'partial/menu.twig' with {page: 'page1'} %}
+    </main>
+{% endblock %}

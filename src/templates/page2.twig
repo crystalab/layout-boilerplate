@@ -1,0 +1,10 @@
+{% extends 'layouts/base-layout.twig' %}
+
+{% block title %}Page2{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>Page2</h1>
+        {% include 'partial/menu.twig' with {page: 'page2'} %}
+    </main>
+{% endblock %}

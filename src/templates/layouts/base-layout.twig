@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <script src="scripts/main.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h2>{% include '../partial/header.twig' %}</h2>
+    {% block content %}{% endblock %}
+</body>
+</html>

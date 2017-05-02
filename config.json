@@ -1,0 +1,11 @@
+{
+  "data": {
+    "username": "Vasya",
+    "address": "Novaya street, 1"
+  },
+  "jsOrder": [
+    "script1.js",
+    "script2.js",
+    "main.js"
+  ]
+}
